@@ -12,7 +12,7 @@ import Signup from './pages/signup';
 import Blog from './pages/blog';
 import Faq from './pages/faq';
 import SignIn from './pages/signIn';
-import Dashboard from './pages/dashbaord'
+import Dashboard from './pages/Dashboard'
 
 import Heatmap from './pages/heatmap';
 import { Route, Routes } from 'react-router-dom';
@@ -21,7 +21,7 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
           {/* <Header></Header>
           <Routes>
           <Route path="/" element={<Home></Home>}></Route>
@@ -40,7 +40,7 @@ function App() {
 
 <Dashboard></Dashboard>
  {/* <Footer></Footer> */}
-        </header>
+        {/* </header> */}
     </div>
   );
 }
