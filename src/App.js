@@ -12,6 +12,7 @@ import Signup from './pages/signup';
 import Blog from './pages/blog';
 import Faq from './pages/faq';
 import SignIn from './pages/signIn';
+import Dashboard from './pages/dashbaord'
 
 import Heatmap from './pages/heatmap';
 import { Route, Routes } from 'react-router-dom';
@@ -21,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <Header></Header>
+          {/* <Header></Header>
           <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/Blog" element={<Blog></Blog>}></Route>
@@ -35,9 +36,10 @@ function App() {
           <Route path="/Privacy" element={<Privacy></Privacy>}></Route>
         
           <Route path="/Heatmap" element={<Heatmap></Heatmap>}></Route>
-          </Routes>
+          </Routes> */}
 
- <Footer></Footer>
+<Dashboard></Dashboard>
+ {/* <Footer></Footer> */}
         </header>
     </div>
   );

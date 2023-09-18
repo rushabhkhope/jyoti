@@ -1,5 +1,5 @@
 import React from 'react';
-import CalendarHeatmap from 'reactjs-calendar-heatmap';
+// import CalendarHeatmap from 'reactjs-calendar-heatmap';
 
 
 function Heatmap() {
@@ -29,11 +29,11 @@ function Heatmap() {
 
   return (
     <div id="calendar-heatmap">
-      <CalendarHeatmap
+      {/* <CalendarHeatmap
         values={seriesData}
         startDate={new Date('2023-01-01')} // Replace with your desired start date
         endDate={new Date('2023-12-31')}   // Replace with your desired end date
-      />
+      /> */}
     </div>
   );
 }
