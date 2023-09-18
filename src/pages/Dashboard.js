@@ -6,7 +6,7 @@ import GraphCard from "../components/GraphCard";
 import CalnendarCard from "../components/CalnendarCard";
 import TableCard from "../components/TableCard";
 
-
+import PieChartComp from "../components/PieChartComp";
 
 
 export default function Dashbaord() {
@@ -34,7 +34,7 @@ export default function Dashbaord() {
               <div class="p-2">
                 <TradeCards></TradeCards>
               </div>
-              <div class="p-2">
+              <div class="p-2 " >
                 <GraphCard></GraphCard>
               </div>
               <div class="p-2">
