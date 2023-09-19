@@ -16,7 +16,7 @@ export default function Dashbaord() {
       <div class="container-fluid bg-secondary h-100" >
         <div class="d-flex flex-sm-row flex-column bd-highlight mb-3">
           {showSideNav ? (
-            <div class="p-2 bd-highlight  mw-25">
+            <div class="p-2 bd-highlight  mw-25 " >
               <SideNav></SideNav>
             </div>
           ) : null}
